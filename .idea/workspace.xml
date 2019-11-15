@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d87fc25-ea95-403a-9f9b-c58c93744725" name="Default Changelist" comment="" />
+    <list default="true" id="6d87fc25-ea95-403a-9f9b-c58c93744725" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pandas/group_by.py" beforeDir="false" afterPath="$PROJECT_DIR$/pandas/group_by.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,31 +30,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="972" />
+          <entry key="py" value="5532" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="972" />
+          <entry key="Python" value="5532" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pandas/group_by.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="11" column="3" lean-forward="true" selection-end-line="35" selection-end-column="18" />
+            <state relative-caret-position="413">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
+                <marker date="1573852656596" expanded="true" signature="579:580" ph="..." />
+                <marker date="1573852656596" expanded="true" signature="1221:2743" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/language-basics/group-by.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="5">
@@ -73,11 +77,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pandas/group_by.py" />
         <option value="$PROJECT_DIR$/language-basics/group-by.py" />
+        <option value="$PROJECT_DIR$/pandas/group_by.py" />
       </list>
     </option>
   </component>
@@ -85,6 +92,9 @@
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -119,6 +129,9 @@
       </pane>
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -131,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.group-by">
+  <component name="RunManager" selected="Python.group_by">
     <configuration name="group-by" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data-science" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,8 +193,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.group-by" />
         <item itemvalue="Python.group_by" />
+        <item itemvalue="Python.group-by" />
       </list>
     </recent_temporary>
   </component>
@@ -211,8 +224,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33375797" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13503185" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3299363" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -228,35 +241,46 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pandas/group_by.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/language-basics/group-by.py</url>
           <line>30</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="time." language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>time.</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pandas/group_by.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="11" column="3" lean-forward="true" selection-end-line="35" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/language-basics/group-by.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandas/group_by.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+            <marker date="1573852656596" expanded="true" signature="579:580" ph="..." />
+            <marker date="1573852656596" expanded="true" signature="1221:2743" ph="..." />
           </folding>
         </state>
       </provider>
