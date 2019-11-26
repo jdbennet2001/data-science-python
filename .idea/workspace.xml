@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d87fc25-ea95-403a-9f9b-c58c93744725" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/changepoint/custom-window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changepoint/custom-window.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/changepoint/algorithms/OnlineChangePoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/changepoint/algorithms/OnlineChangePoint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/sliding-window.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/sliding-window.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -204,7 +204,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573763942447</updated>
-      <workItem from="1574104410077" duration="15926000" />
+      <workItem from="1574104410077" duration="22303000" />
     </task>
     <servers />
   </component>
@@ -251,16 +251,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_science$custom_window.coverage" NAME="custom-window Coverage Results" MODIFIED="1574200146082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/changepoint" />
     <SUITE FILE_PATH="coverage/data_science$plot_example.coverage" NAME="plot-example Coverage Results" MODIFIED="1574104787526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas" />
-    <SUITE FILE_PATH="coverage/data_science$Unittests_in_sliding_window_py.coverage" NAME="Unittests in sliding-window.py Coverage Results" MODIFIED="1574716552444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/data_science$Unittests_in_sliding_window_py.coverage" NAME="Unittests in sliding-window.py Coverage Results" MODIFIED="1574781859837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/data_science$pelt.coverage" NAME="pelt Coverage Results" MODIFIED="1574183639631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/changepoint" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>time.</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>

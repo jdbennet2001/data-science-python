@@ -17,7 +17,7 @@ class SlidingWindowTestCase(unittest.TestCase):
         # Create a synthetic data set to test with
         np.random.seed(42)  # Reproducible test cases
         points = np.concatenate([np.random.normal(loc=500, scale=5, size=550),
-                                 np.random.normal(loc=750, scale=5, size=25),
+                                 np.random.normal(loc=650, scale=10, size=25),
                                  np.random.normal(loc=500, scale=5, size=250)]).tolist()
 
         # Diagram the data set
@@ -28,7 +28,8 @@ class SlidingWindowTestCase(unittest.TestCase):
 
         for counter, value in enumerate(points):
             category = classifier.classify(value)
-            print( f'{counter} => {value}, {category}')
+            if category:
+                print( f'{counter} => {value}, {category}')
 
         self.assertEqual(True, False)
 
